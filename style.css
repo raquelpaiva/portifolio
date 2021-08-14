@@ -1,0 +1,128 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:#F89B06;
+    
+}
+
+
+ul {
+    list-style: none;
+    font-style:italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+#foto_perfil {
+    border-radius: 50%;
+    margin-top: 2%;
+    border: 1px solid;
+}
+
+
+body{ 
+    background-image: url(./imagens/sky-Space.jpg);
+    background-size:cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 5px;
+}
+
+header ul li a:hover{
+    transition: 300ms;
+}
+
+header ul li a:hover{
+    color:#FFF;
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .nome h1 {
+    font-size: 40px;
+}
+
+.container .nome h5 {
+    font-size: 20px;
+}
+#arrow {
+    font-size: 40px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transition: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300 ms;
+}
+
+.active {
+    display: block;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0% auto;
+}
+
+.form input {
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+    width: 15%;
+    padding: 5px 10px;
+    background: linear-gradient(to right,#F89B06 50%, #0645F8 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color:#FFF;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.form button:hover {
+    background-position: left bottom;
+}
