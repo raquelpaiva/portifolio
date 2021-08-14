@@ -40,7 +40,7 @@
                <i id="animation" class="fas fa-sort-down"></i>
             </div>
 
-            <div id="about">
+            <div style="display: none;" id="about">
                 <p>
                 Código, café, cuzcuz e Rock'n'Roll! /m/
                 </p>
@@ -60,7 +60,7 @@
             var arrow = document.getElementById ('animation');
             arrow.classList.toggle('rotate');
             var display = document.getElementById ('about');
-            arrow.classList.toggle('active');
+            display.classList.toggle('active');
         }
     </script>
 </body>

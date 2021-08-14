@@ -86,7 +86,7 @@ header ul li a:hover{
 }
 
 .active {
-    display: block;
+    display: block !important;
 }
 
 #about p {
