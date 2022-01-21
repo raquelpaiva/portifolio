@@ -1,1 +1,1 @@
-# Esta é uma amostra de um website utilizando: 
+## Esta é uma amostra de um website utilizando: HTML + CSS 
